@@ -1,68 +1,97 @@
+
 <?php
-echo "<h1>A1</h1><br>";
+echo "A";
+echo "<br>";
 for ($i = 1; $i <= 10; $i++) {
     echo $i . "<br>";
-
-
-
-}
-
-
-echo "<h2>A2</h2>";
-for ($i = 2; $i<>20; $i++){
-
-if ($i % 2 == 0){
-    echo "<br>";
-    echo $i;
-
 }
 
 
 
 
+
+echo "B";
+echo "<br>";
+for ($i = 2; $i <= 20; $i += 2) {
+    echo $i . "<br>";
 }
 
-echo "<h2>A3</h2>";
 
 
+
+
+
+echo "C";
+echo "<br>";
 $number = 7;
+
 for ($i = 1; $i <= 10; $i++) {
-
-    $nasobilka =$number * $i;
-    echo $nasobilka . "<br>";
-
+    $result = $number * $i;
+    echo "$number × $i = $result<br>";
 }
 
 
-echo "<h2>A4</h2>";
 
-$sum =0;
+
+
+
+
+echo "D";
+echo "<br>";
+$sum = 0;
+
 for ($i = 1; $i <= 100; $i++) {
-    echo  $sum + $i ; "<br>";
-    $sum++;
+    $sum += $i;
 }
 
+echo "Součet čísel od 1 do 100 je: " . $sum;
 
-echo "<h2>A7</h2>";
 
 
+
+
+
+
+echo "E";
+echo "<br>";
+$counter = 10;
+
+while ($counter >= 1) {
+    echo $counter . "<br>";
+    $counter--;
+}
+
+echo "Hotovo";
+
+
+
+echo "<br>";
+
+echo "F";
+echo "<br>";
 $number = 8;
-echo "Výpis z cyklu while:<br>";
+
+
 while ($number < 5) {
-    echo "Hodnota v while je: " . $number . "<br>";
+    echo "While: " . $number . "<br>";
 }
 
-echo "<br><br>";
+
 do {
-    echo "Hodnota v dowhile je: " . $number . "<br>";
+    echo "Do-while: " . $number . "<br>";
 } while ($number < 5);
 
-echo "<h2>A8</h2>";
 
 
+
+
+
+echo "G";
+echo "<br>";
 $i = 1;
-
 while ($i <= 5) {
     echo $i . "<br>";
     $i++;
-    }
+}
+
+
