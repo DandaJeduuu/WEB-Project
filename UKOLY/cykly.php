@@ -1,4 +1,4 @@
-
+/*Ahoj Danieli*/
 <?php
 echo "A";
 echo "<br>";
